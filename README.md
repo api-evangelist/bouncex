@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Wunderkind is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/bouncex_stock/
+Wunderkind, formerly known as BounceX, provides an autonomous marketing platform that leverages AI-driven decisioning to personalize consumer experiences and drive revenue for ecommerce brands. The platform offers identity resolution, audience segmentation, and real‑time data activation across web, email, and advertising channels, helping marketers deliver targeted content and improve conversion rates.
+
+**Areas:** Marketing · Artificial Intelligence · E-Commerce · Personalization · Identity
+
+## Wunderkind on APIs.io
+
+Everything profiled for Wunderkind is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bouncex/](https://apis.io/providers/bouncex/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Wunderkind Contacts API](https://apis.io/apis/bouncex/bouncex-contacts-api/) — The Contacts API from Wunderkind — 1 operation(s) for contacts.
+- [Wunderkind Createcontactactivities API](https://apis.io/apis/bouncex/bouncex-createcontactactivities-api/) — The Createcontactactivities API from Wunderkind — 1 operation(s) for createcontactactivities.
+- [Wunderkind Id Resolution API](https://apis.io/apis/bouncex/bouncex-id-resolution-api/) — The Id Resolution API from Wunderkind — 2 operation(s) for id resolution.
+- [Wunderkind Interaction API](https://apis.io/apis/bouncex/bouncex-interaction-api/) — The Interaction API from Wunderkind — 1 operation(s) for interaction.
+- [Wunderkind Text API](https://apis.io/apis/bouncex/bouncex-text-api/) — The Text API from Wunderkind — 6 operation(s) for text.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostContactsV1AddressesEmailSearchRequest](https://apis.io/schemas/bouncex/bouncex-post-contacts-v1-addresses-email-search-request/)
+- [PostCreatecontactactivitiesRequest](https://apis.io/schemas/bouncex/bouncex-post-createcontactactivities-request/)
+- [PostInteractionV1EventsRequest](https://apis.io/schemas/bouncex/bouncex-post-interaction-v1-events-request/)
+- [PostTextBulkMessageSendResponse](https://apis.io/schemas/bouncex/bouncex-post-text-bulk-message-send-response/)
+- [PostTextMessageSendRequest](https://apis.io/schemas/bouncex/bouncex-post-text-message-send-request/)
+- [PostTextSubscriptionStatusResponse](https://apis.io/schemas/bouncex/bouncex-post-text-subscription-status-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Bouncex Context](https://apis.io/jsonld/bouncex/bouncex-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Wunderkind API Rules](https://apis.io/rules/bouncex/bouncex-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bouncex Authentication](https://apis.io/security/bouncex/bouncex-authentication/)
+- [Bouncex Domain Security](https://apis.io/security/bouncex/bouncex-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.wunderkind.co/)
+- [Documentation](https://developer.wunderkind.co/)
+- [Getting started](https://developer.wunderkind.co/docs/msdk-getting-started)
+- [API reference](https://developer.wunderkind.co/reference)
+- [Support](https://support.wunderkind.co/hc/en-us)
+- [Changelog](https://developer.wunderkind.co/changelog)
+- [Blog](https://www.wunderkind.co/blog)
+- [Terms of service](https://www.wunderkind.co/terms)
+- [Privacy policy](https://www.wunderkind.co/privacy)
+- [Status](https://status.wunderkind.co/)
+
+## API Evangelist rating
+
+**Kin Score 36.3** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 25.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 30.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bouncex/](https://apis.io/providers/bouncex/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Wunderkind: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bouncex/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
